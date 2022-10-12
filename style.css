@@ -142,8 +142,165 @@ button:hover {
 .main-part2 {
     background-color: #F0F8FF;
     padding-top: 120px;
+    height: 500px;
 }
 
 .main-part2 h1 {
     text-align: center;
+}
+
+/* main section part 2 end */
+/* main section part 3 start */
+.main-part3 {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 350px;
+    width: 1000px;
+    margin-right: 20%;
+}
+
+.part3-img img {
+    width: 100%;
+    padding-top: 150px;
+}
+
+.part3-text {
+    padding-top: 200px;
+}
+
+.part3-text h2 {
+    font-weight: 400;
+}
+
+.part3-text2 {
+    padding-top: 20px;
+}
+
+.client-name {
+    font-size: 25px;
+    color: #F1C111;
+}
+
+/* main section part 3 end */
+/* footer section start */
+/* footer section part 1 start */
+.footer {
+    margin-top: 200px;
+    background-color: #171819;
+    height: 510px;
+}
+
+.footer-part1 {
+    color: white;
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-text {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.footer-text h1 {
+    font-size: 32px;
+}
+
+.contact-info {
+    margin-left: 120px;
+    font-size: 24px;
+}
+
+.contact-info h3 {
+    color: #6E6F6F;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-nmbr,
+h5 {
+    color: #858585;
+    font-size: 20px;
+}
+
+.gmail:hover {
+    color: #F1C111;
+    cursor: pointer;
+}
+
+.contact-nmbr {
+    padding: 10px 0px;
+}
+
+.studio-details {
+    color: #858585;
+    margin-left: 100px;
+}
+
+.studio-details h2 {
+    font-size: 18px;
+    color: #6E6F6F;
+    font-weight: 400;
+}
+
+.studio-details i {
+    color: #F1C111;
+}
+
+.studio-details .location {
+    margin-top: 20px;
+}
+
+/* footer section part 1 end */
+/* footer section part 2 start */
+.footer-part2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    color: #605D5D;
+}
+
+.author-name a {
+    text-decoration: none;
+    color: #605D5D;
+}
+
+.author-name a:hover {
+    color: #F1C111;
+}
+
+.courtesy {
+    margin-left: 100px;
+}
+
+.other-part {
+    margin-left: 80px;
+}
+
+.other-part ul li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+
+.other-part ul li a {
+    text-decoration: none;
+    color: #605D5D;
+}
+
+.other-part ul li a:hover {
+    color: #F1C111;
+}
+
+.social-media-icon {
+    padding: px;
+}
+
+.social-media-icon a {
+    color: #605D5D;
+    margin-left: 50px;
+}
+
+.social-media-icon a:hover {
+    color: #F1C111;
 }
